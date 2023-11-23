@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LearningActivity">
+
+    <Button
+        android:id="@+id/button_numbers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="411dp"
+        android:layout_marginBottom="272dp"
+        android:text="Numbers"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_directions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="547dp"
+        android:layout_marginEnd="259dp"
+        android:layout_marginBottom="136dp"
+        android:text="Directions"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_seasons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="411dp"
+        android:layout_marginEnd="73dp"
+        android:text="Seasons"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_months"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="249dp"
+        android:layout_marginTop="551dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="132dp"
+        android:text="Months"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_Days"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="164dp"
+        android:layout_marginBottom="16dp"
+        android:text="Days"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button_multiplication"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="260dp"
+        android:layout_marginEnd="16dp"
+        android:text="Multiplication"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_clock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginEnd="259dp"
+        android:layout_marginBottom="423dp"
+        android:text="Clock"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="143dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="19dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/e_mc_2" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="103dp"
+        android:layout_height="83dp"
+        android:layout_marginTop="328dp"
+        android:layout_marginEnd="73dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/mevsim" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="112dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="340dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/saylar" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="69dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="476dp"
+        android:layout_marginEnd="284dp"
+        android:layout_marginBottom="183dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/_799193_camping_compass_outdoor_travel_direction_icon" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="71dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="608dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/calendar_days_regular" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="230dp"
+        android:layout_height="79dp"
+        android:layout_marginStart="177dp"
+        android:layout_marginTop="468dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="184dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/calendar_week_solid" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="154dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="182dp"
+        android:layout_marginEnd="228dp"
+        android:layout_marginBottom="471dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/uhr" />
+
+    <Button
+        android:id="@+id/button_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
